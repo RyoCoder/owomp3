@@ -447,9 +447,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls"),
-                ],
-                [InlineKeyboardButton(text="🎧 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}")],
-            ]
+                ]
         )
         file_name = get_file_name(audio)
         title = file_name
@@ -494,8 +492,6 @@ async def play(_, message: Message):
               [
                   InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                   InlineKeyboardButton("🗑 Close", callback_data="ccls")
-              ],[
-                  InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}")
               ]
           ]
         )
@@ -536,8 +532,6 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls")
-                ],[
-                    InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ]
             ]
         )
