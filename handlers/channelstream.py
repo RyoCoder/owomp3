@@ -448,6 +448,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls"),
                 ]
+                ]
         )
         file_name = get_file_name(audio)
         title = file_name
